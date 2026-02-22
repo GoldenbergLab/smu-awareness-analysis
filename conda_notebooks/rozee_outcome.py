@@ -15,7 +15,7 @@ import json
 import time
 
 path_rozee = Path('D:\\my research\\rozee\\RozeeGPT_Chat\\260212_dashboard_download_pilot1')
-df = pd.read_csv(path_rozee / 'data_clean.csv')
+df = pd.read_csv(path_rozee / 'data_cleaned_feb19_yl.csv')
 ### check the result of outcomes
 df['outcome_b'] = 0
 df.loc[df['outcome']=='interested', 'outcome_b'] = 1
