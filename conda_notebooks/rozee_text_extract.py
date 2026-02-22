@@ -190,7 +190,7 @@ print('\n'.join(robust_redact(df['r_all'][2]).split('||')))
 print('\n'.join(df['r_all'][26].split('||')))
 print('\n'.join(robust_redact(df['r_all'][2]).split('||')))
 
-df.to_csv(path_rozee / 'data_cleaned.csv', index=False)
+df.to_csv(path_rozee / 'data_cleaned_feb19_yl.csv', index=False)
 
 
 ### visaulizing basic distributions
