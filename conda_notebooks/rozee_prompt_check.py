@@ -18,7 +18,7 @@ client = OpenAI(
     api_key="xx",
 )
 path_rozee = Path('D:\\my research\\rozee\\RozeeGPT_Chat\\260212_dashboard_download_pilot1')
-df = pd.read_csv(path_rozee / 'data_clean.csv')
+df = pd.read_csv(path_rozee / 'data_cleaned_feb19_yl.csv')
 
 # rule 1: check the second follow up
 pattern_T1 = re.compile(r"\b(explor\w*|different\w*|common\w*|career\w*|progress\w*)\b", re.IGNORECASE)
